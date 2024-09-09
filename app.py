@@ -4,7 +4,7 @@ from local_search import create_search_engine
 
 
 def app():
-    api_key = os.environ["GRAPHRAG_API_KEY"]
+    api_key = st.secrets['GRAPHRAG_API_KEY']
     st.title('RA Handbook Chatbot')
 
     search_engine = create_search_engine(api_key)
