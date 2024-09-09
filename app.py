@@ -1,5 +1,4 @@
 import streamlit as st
-import os
 from local_search import create_search_engine
 
 

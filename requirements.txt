@@ -1,6 +1,5 @@
 tiktoken
 streamlit
-os
 pandas
 numpy
 graphrag
